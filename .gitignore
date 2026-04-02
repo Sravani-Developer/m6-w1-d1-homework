@@ -1,0 +1,4 @@
+node-mongo/node_modules/
+node-mongo/npm-debug.log*
+node-mongo/.DS_Store
+react-app/.DS_Store
