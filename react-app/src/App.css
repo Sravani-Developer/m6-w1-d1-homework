@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  background: #f8f8f8;
+  font-family: Arial, sans-serif;
+  color: #2f363d;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-frame {
+  width: calc(100% - 40px);
+  min-height: calc(100vh - 40px);
+  margin: 20px;
+  border: 1px solid #6e6e6e;
+  background: #ffffff;
+}
+
+.app-shell-navbar {
+  width: 100%;
+}
+
+.app-navbar {
+  background-color: #22282c !important;
+  min-height: 52px;
+}
+
+.app-nav-link {
+  color: #ffffff !important;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 6px;
+  padding: 0 !important;
+}
+
+.app-content {
+  padding: 20px 26px 30px;
+}
+
+.app-home-content {
+  padding-top: 44px;
+  padding-left: 54px;
+  min-height: 520px;
+}
+
+.manage-btn {
+  display: inline-block;
+  padding: 12px 15px !important;
+  border: 1px solid #7f8890 !important;
+  border-radius: 4px !important;
+  color: #0d6efd !important;
+  background: #ffffff !important;
+  font-size: 16px;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+.manage-btn:hover,
+.manage-btn:focus,
+.manage-btn:active {
+  color: #0d6efd !important;
+  text-decoration: none !important;
+  background: #ffffff !important;
+  border-color: #7f8890 !important;
+  box-shadow: none !important;
+}
+
+.page-title {
+  margin: 0 0 24px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #2f363d;
+}
+
+.add-btn {
+  padding: 8px 14px;
+  font-size: 16px;
+}
+
+.inventory-table {
+  margin-bottom: 0;
+}
+
+.inventory-table thead th {
+  border-top: 0;
+  border-bottom: 1px solid #6f7780;
+  color: #2f363d;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 10px 8px;
+}
+
+.inventory-table tbody td {
+  color: #3b4045;
+  font-size: 17px;
+  padding: 10px 8px;
+  vertical-align: middle;
+}
+
+.inventory-table .btn-group .btn {
+  padding: 5px 11px;
+}
+
+.form-content {
+  max-width: 560px;
+  padding-left: 68px;
+}
+
+.inventory-form label {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #2f363d;
+}
+
+.inventory-form .form-control {
+  height: 46px;
+  font-size: 18px;
+}
+
+.form-btn {
+  min-width: 62px;
+}
